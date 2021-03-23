@@ -103,7 +103,7 @@ int main(int argc, char* argv[])
 	hHook = SetWindowsHookEx(WH_KEYBOARD_LL, keyboard_hook, NULL, 0);
 
 	if (hHook == NULL) {
-		std::cout << "Keyboard hook failed!" << std::endl;
+		std::cout << "Der Scheiss geht gar nicht! Fix mal die Bugs du kek." << std::endl;
 	}
 
 
